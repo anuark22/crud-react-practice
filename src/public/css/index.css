@@ -1,0 +1,11 @@
+*{
+    margin:0px;
+    padding:0px;
+    background-color:#FAFAFA;
+    font-size: 12px;
+}
+@font-face{
+    font-family: "Roboto";
+    src: url('../font/Roboto/Roboto-Thin.ttf'),
+         url('../font/Roboto/Roboto-Light.ttf');
+}

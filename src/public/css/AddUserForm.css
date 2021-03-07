@@ -1,0 +1,104 @@
+.add-user-form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    height: 90%;
+    margin: 0px;
+    background-color: skyblue;
+    border: 4px solid #eee;
+    border-radius: 25px;
+}
+.add-form-name{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: skyblue;
+    border-radius: 25px;
+}
+.add-form-name h2{
+    padding-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: left;
+    color: #eee;
+    background-color: skyblue;
+}
+.add-form-name input{
+    border-style: none;
+    width: 80%;
+    height: 40px;
+    outline: none;
+    border: 1px solid rgba(49, 141, 202, 0.733);
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #7e7e7e;
+}
+.add-form-user-name{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-top: 20px;
+    background-color: skyblue;
+}
+.add-form-user-name input{
+    border-style: none;
+    outline: none;
+    width: 80%;
+    height: 40px;
+    border: 1px solid rgba(49, 141, 202, 0.733);
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #7e7e7e;
+}
+.add-form-user-name h2{
+    padding-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: left;
+    background-color: skyblue;
+    color: #eee;
+}
+.btn-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+    padding: 20px;
+    border-style: none;
+    background-color: rgba(49, 141, 202, 0.733);
+    border: 1px solid rgba(82, 79, 79, 0.822);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #eee;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.btn-btn:hover{
+    background-color: rgba(70, 178, 250, 0.733);
+}
+.error-message{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    background-color: skyblue;
+    color: red;
+    margin: 3px;
+}

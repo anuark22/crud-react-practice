@@ -1,0 +1,38 @@
+table{
+    width: 95%;
+    height: 80%;
+    background-color: #afafaf;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 2.1rem;
+    border: 3px solid #fff;
+}
+.tr th{
+    font-size: 16px;
+    padding: 10px;
+}
+.tr td{
+    font-size: 15px;
+}
+
+.button{
+    border: 1px solid #cecece;
+    width: 60px;
+    height: 30px;
+    margin: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #777474;
+    cursor: pointer;
+    outline: none;
+}
+.button:hover{
+    border: 1px solid #cecece;
+    color: blue;
+}
+.no-users{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    width: 100%;
+    background-color: #fff;
+}
